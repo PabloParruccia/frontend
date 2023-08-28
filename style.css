@@ -1,0 +1,14 @@
+h1 {
+  color: darkred;
+  /* color al texto */
+}
+p {
+  color: #000;
+  font-size: 16px;
+  /* manera de aumentar o disminuir el tamaño de la letra */
+}
+a {
+  color: #ff9900;
+  text-decoration: none;
+  /* le saca el subrayado al link */
+}
