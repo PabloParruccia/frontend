@@ -1,14 +1,33 @@
+body{
+    background-color: darkslategray;
+    color: white;
+}
+.Parrafo1 {
+    color: greenyellow;
+    font-size: 18px;
+}
+.Parrafo2 {
+    color: greenyellow;
+    font-size: 18px;
+}
+.Parrafo3 {
+    color: greenyellow;
+    font-size: 18px;
+}
+.link1 {
+    color: greenyellow;
+    text-decoration: none;
+}
+.link2 {
+    color: greenyellow;
+    text-decoration: none;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
 h1 {
-  color: darkred;
-  /* color al texto */
-}
-p {
-  color: #000;
-  font-size: 16px;
-  /* manera de aumentar o disminuir el tamaño de la letra */
-}
-a {
-  color: #ff9900;
-  text-decoration: none;
-  /* le saca el subrayado al link */
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
 }
