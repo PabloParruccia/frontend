@@ -1,33 +1,51 @@
-body{
-    background-color: darkslategray;
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #241616;
+    }
+body h1 {
     color: white;
 }
-.Parrafo1 {
-    color: greenyellow;
-    font-size: 18px;
-}
-.Parrafo2 {
-    color: greenyellow;
-    font-size: 18px;
-}
-.Parrafo3 {
-    color: greenyellow;
-    font-size: 18px;
-}
-.link1 {
-    color: greenyellow;
-    text-decoration: none;
-}
-.link2 {
-    color: greenyellow;
-    text-decoration: none;
-}
-a{
-    display: flex;
-    justify-content: center;
-}
-h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 35px;
-}
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    input[type="text"] {
+        padding: 8px;
+        width: 60%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    button {
+        padding: 8px 15px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+        padding: 8px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .completed {
+        background-color: green;
+        color: black;
+
+    }
+    button.delete {
+        margin-left: auto;
+        background-color: #dc3545;
+    }
+    
