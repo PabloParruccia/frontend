@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Curso desarrollo Frontend</title>
+        <title>Lista de Tareas</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Pablo Emiliano Parruccia</h1>
-        <p class="Parrafo1">Mi nombre es <b>Pablo Parruccia</b>, tengo 26 años, soy de Villa Maria Cordoba y Tengo 2 hermosos hijos.</p>
-        <p class="Parrafo2">Actualmente estoy cursando 2° año de la <i>Tecnicatura en Programacion</i>
-            Que dicta la <i>UTN</i> de mi cuidad</p>
-        <p class="Parrafo3">Trabajo para <b>Tecnowork</b> donde en la <i>Redes, Comunicaciones, Servidores, 
-            Integración deTecnología, Relevamientos de Estructuras Tecnológicas, 
-            Sistemas de Comunicación para Mineras y Túneles, Servidores PACS para Clínicas, 
-            Hospitales y Centros de Diagnostico y Asesoramiento y Capacitación</i>
-        </p>
-        <a href="https://www.linkedin.com/company/tecnowork-villa-mar-a/about/"  class="link1">Linkedin Tecnowork</a>
-        <a href="https://www.instagram.com/tecnoworkvm/" class="link2">Instagram Tecnowork</a>
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea">
+        <button onclick="agregarTarea()">Agregar</button>
+        <button onclick="mostrarTareasCompletadas()">Completadas</button>
+        <button onclick="mostrarTareasPendientes()">Pendientes</button>     
+        <button onclick="mostrarTareas()">Todas</button>  
+        <ul id="listaTareas"></ul>
+        <script src="script.js"></script>
     </body>
 </html>
